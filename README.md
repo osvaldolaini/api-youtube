@@ -16,6 +16,15 @@ Versão simplificada
 git clone https://github.com/osvaldolaini/api-youtube.git
 ```
 
+## Put api key in config/services.php file
+```
+    'youtube' => [
+        'api_key' => env('API_KEY'),
+        'search_endpoint' => env('SEARCH_ENDPOINT'),
+        'channel_id' => env('CHANNEL_ID')
+    ]
+```
+
 ## Put api key in .env file
 ```
 API_KEY=""
