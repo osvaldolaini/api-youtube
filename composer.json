@@ -1,0 +1,18 @@
+{
+    "name": "osvaldolaini/api-youtube",
+    "description": "Inclusao de videos do canal do YouTube no site",
+    "license": "MIT",
+    "authors": [{
+        "name": "Osvaldo Laini",
+        "email": "osvaldolaini@hotmail.com"
+    }],
+    "require": {
+        "PHP": ">=7.4",
+        "illuminate/http": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "API-YOUTUBE\\apiYoutube": "src/apiYoutube/"
+        }
+    }
+}
